@@ -39,6 +39,8 @@ Resources
 - Questions and comments to http://groupserver.org/groups/development
 - Report bugs at https://redmine.iopen.net/projects/groupserver
 
+.. [#topic] See <https://source.iopen.net/groupserver/gs.group.messages.topic>
+
 .. _GroupServer: http://groupserver.org/
 .. _jQuery Multiple File Upload Plugin: http://www.fyneworks.com/jquery/multiple-file-upload
 
