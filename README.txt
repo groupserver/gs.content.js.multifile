@@ -4,10 +4,11 @@ Introduction
 `jQuery Multiple File Upload Plugin`_ for GroupServer_.
 
 ::
+
   <script type="text/javascript"
-    src="/++resource++multiple_file_upload/jquery.MultiFile.js">&#160;</script>
+    src="/++resource++multiple_file_upload-1.48/jquery.MultiFile.js">&#160;</script>
   <script type="text/javascript"
-    src="/++resource++gsfileupload-20090622.js">&#160;</script>
+    src="/++resource++gsfileupload-20121206.js">&#160;</script>
   <script type="text/javascript">
     jQuery.noConflict();
     jQuery(document).ready( function () {
