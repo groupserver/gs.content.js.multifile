@@ -31,6 +31,7 @@ setup(name='gs.content.js.multifile',
     zip_safe=True,
     install_requires=[
         'setuptools',
+        'gs.content.js.jquery',
     ],
     entry_points="""
     # -*- Entry points: -*-
