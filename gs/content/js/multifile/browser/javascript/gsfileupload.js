@@ -17,7 +17,7 @@ GSFileUpload = function () {
         return true;
       };
     var addMultiFile = function () {
-        var remove = '<strong><abbr title="Remove this file from the files list">X</abbr></strong>';
+        var remove = '<abbr class="minor" title="Remove this file from the list of files">(remove)</abbr>';
         var options = {
           list: '#fileList',
           STRING: {remove: remove}
