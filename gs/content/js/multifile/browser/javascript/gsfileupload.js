@@ -1,6 +1,8 @@
 // GroupServer module for supporting multi-file uploads.
 jQuery.noConflict();
-GSFileUpload = function () {
+GSFileUpload = function (formId, widgetId, listId) {
+    var remove = '<abbr class="muted" title="Remove this file from the list ' +
+                 'of files">(remove)</abbr>';
     // Private methods
     var renameFileInputs = function(event) {
         var multiFiles = jQuery('.MultiFile-applied');
@@ -17,20 +19,18 @@ GSFileUpload = function () {
         return true;
       };
     var addMultiFile = function () {
-        var remove = '<abbr class="muted" title="Remove this file from the list of files">(remove)</abbr>';
-        var options = {
-          list: '#fileList',
-          STRING: {remove: remove}
-        };
-        jQuery('#form\\.uploadedFile').MultiFile(options);
     };
 
     // Public methods and properties
     return {
         init: function () {
-            addMultiFile();
-            jQuery('#add-to-topic').submit(renameFileInputs);
+            var options = {
+                list: listId,
+                STRING: {remove: remove}
+            };
+            jQuery(widgetId).MultiFile(options);
+            jQuery(formId).submit(renameFileInputs);
         }
     };
-}(); // GSFileUpload
+}; // GSFileUpload
 
