@@ -29,23 +29,12 @@ plugin supplied by this product.
 The Plugin
 ==========
 
-The plugin comes in two parts. The first is the generic plugin
-``jquery.MultiFile.js``, which is supplied by the *resource directory*
-``multiple_file_upload-1.48``. The second component is the GroupServer
-customisations, which is supplied by the *resource*
-``gsfileupload-20121206.js``. The JavaScript that is added to a page, to
-load these components, is as follows::
+The plugin is provided by ``jquery.MultiFile.js`` (or
+``jquery.MultiFile-min.js``), which is supplied by the *resource directory*
+``multiple_file_upload-1.48``::
 
   <script type="text/javascript"
     src="/++resource++multiple_file_upload-1.48/jquery.MultiFile.js">&#160;</script>
-  <script type="text/javascript"
-    src="/++resource++gsfileupload-20121206.js">&#160;</script>
-  <script type="text/javascript">
-    jQuery.noConflict();
-    jQuery(document).ready( function () {
-        GSFileUpload.init();
-    });
-  </script>
 
 Resources
 =========
