@@ -31,6 +31,7 @@ setup(name='gs.content.js.multifile',
     zip_safe=True,
     install_requires=[
         'setuptools',
+        'zope.browserresource',
         'gs.content.js.jquery',
     ],
     entry_points="""
