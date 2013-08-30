@@ -11,29 +11,30 @@ setup(name='gs.content.js.multifile',
     long_description=open("README.txt").read() + "\n" +
                       open(os.path.join("docs", "HISTORY.txt")).read(),
     classifiers=[
-      "Development Status :: 4 - Beta",
-      "Environment :: Web Environment",
-      "Framework :: Zope2",
-      "Intended Audience :: Developers",
-      "License :: Other/Proprietary License",
-      "Natural Language :: English",
-      "Operating System :: POSIX :: Linux"
-      "Programming Language :: JavaScript",
-      ],
+        'Development Status :: 5 - Production/Stable',
+        "Environment :: Web Environment",
+        "Framework :: Zope2",
+        "Intended Audience :: Developers",
+        "License :: OSI Approved :: MIT License",
+        "Natural Language :: English",
+        "Operating System :: OS Independent"
+        "Programming Language :: JavaScript",
+        "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+    ],
     keywords='js file upload javascript jquery plugin',
     author='Michael JasonSmith',
     author_email='mpj17@onlinegroups.net',
     url='http://groupserver.org/',
-    license='GPL',
+    license='MIT',
     packages=find_packages(exclude=['ez_setup']),
     namespace_packages=['gs', 'gs.content', 'gs.content.js'],
     include_package_data=True,
     zip_safe=True,
     install_requires=[
         'setuptools',
-        'zope.browserresource',
         'gs.content.js.jquery.base',
     ],
+    extras_require={'zope': ['zope.browserresource', ]},
     entry_points="""
     # -*- Entry points: -*-
     """,)

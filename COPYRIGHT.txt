@@ -1,0 +1,3 @@
+MultiFile JavaScript, images and CSS are Copyright 2013 Fyneworks.com 
+
+The egg (gs.content.js.multifile) copyright OnlineGroups.net and contributors.
