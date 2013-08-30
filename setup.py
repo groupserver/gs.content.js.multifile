@@ -20,6 +20,7 @@ setup(name='gs.content.js.multifile',
         "Operating System :: OS Independent"
         "Programming Language :: JavaScript",
         "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+        "Topic :: Software Development :: Libraries :: JavaScript Modules",
     ],
     keywords='js file upload javascript jquery plugin',
     author='Michael JasonSmith',
