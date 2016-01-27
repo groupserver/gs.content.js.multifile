@@ -4,7 +4,7 @@
 
   <browser:resourceDirectory
     name="multiple_file_upload-1.48"
-    directory="browser/javascript/multiple_file_upload"
+    directory="browser/javascript/1.48/multiple_file_upload"
     permission="zope2.Public" />
 
 </configure>
