@@ -1,8 +1,8 @@
 Changelog
 =========
 
-2.2.1.dev20160127192605 (2016-01-27)
-------------------------------------
+2.2.1.dev20160127 (2016-01-27)
+------------------------------
 
 * Adding a new upstream version of the code
 * Naming the reSTructuredText files as such
@@ -10,21 +10,21 @@ Changelog
 
 .. _GitHub: https://github.com/groupserer/gs.content.js.multifile
 
-1.46.dev20130830221520 (2013-08-30)
------------------------------------
+1.46.dev20130830 (2013-08-30)
+------------------------------
 
 * Updating the metadata
 
-1.48.dev20130530233232 (2013-05-30)
------------------------------------
+1.48.dev20130530 (2013-05-30)
+-----------------------------
 
 * Following jQuery to `gs.content.js.jquery.base`_
 
 .. _gs.content.js.jquery.base:
    https://github.com/groupserer/gs.content.js.jquery.base
 
-1.48.dev20130318052700 (2013-03-18)
------------------------------------
+1.48.dev20130318 (2013-03-18)
+-----------------------------
 
 * Adding a minified version of the JavaScript
 * Using the version-number of the upstream-code
