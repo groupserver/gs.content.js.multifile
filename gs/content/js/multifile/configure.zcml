@@ -3,6 +3,11 @@
            xmlns:browser="http://namespaces.zope.org/browser">
 
   <browser:resourceDirectory
+    name="multiple_file_upload-2.2.1"
+    directory="browser/javascript/2.2.1/multifile-master"
+    permission="zope2.Public" />
+  <!--old-->
+  <browser:resourceDirectory
     name="multiple_file_upload-1.48"
     directory="browser/javascript/1.48/multiple_file_upload"
     permission="zope2.Public" />
